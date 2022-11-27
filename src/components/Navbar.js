@@ -12,20 +12,20 @@ const Navbar = () => {
 
             <div className="logo">
                
-             <Link href="/">
+             <a href="/">
  <img id="logoImage" src="https://i01.appmifile.com/webfile/globalimg/pandora/mi-logo.svg" alt="Not" /> 
              </Link>
 
              </div>
 
-           <Link  className="navlinks"  to="/#miphones">Mi Phones</Link>
-           <Link   className="navlinks"   to="/#redmiphones">Redmi Phones</Link>
-           <Link   className="navlinks"  to="/#tv">TV</Link>
-           <Link   className="navlinks"  to="/#laptops">Laptops</Link>
-           <Link   className="navlinks"  to="/#lifestyle">Fitness & Lifestyle</Link>
-           <Link  className="navlinks" to="/#home">Home</Link>
-           <Link   className="navlinks"  to="/#audio">Radio</Link>
-           <Link   className="navlinks"  to="/#accessories">Accessories</Link>
+           <a  className="navlinks"  href="/#miphones">Mi Phones</Link>
+           <a   className="navlinks"   href="/#redmiphones">Redmi Phones</Link>
+           <a   className="navlinks"  href="/#tv">TV</Link>
+           <a   className="navlinks"  href="/#laptops">Laptops</Link>
+           <a   className="navlinks"  href="/#lifestyle">Fitness & Lifestyle</Link>
+           <a  className="navlinks" href="/#home">Home</Link>
+           <a   className="navlinks"  href="/#audio">Radio</Link>
+           <a   className="navlinks"  href="/#accessories">Accessories</Link>
 
            <div className="searchbox">
               <input type="text" name="search"  placeholder="Search Products"/>
