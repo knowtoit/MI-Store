@@ -13,19 +13,19 @@ const Navbar = () => {
             <div className="logo">
                
              <a href="/">
- <img id="logoImage" src="https://i01.appmifile.com/webfile/globalimg/pandora/mi-logo.svg" alt="Not" /> 
+        <img id="logoImage" src="https://i01.appmifile.com/webfile/globalimg/pandora/mi-logo.svg" alt="Not" /> 
              </Link>
 
              </div>
 
-           <a  className="navlinks"  href="/#miphones">Mi Phones</Link>
-           <a   className="navlinks"   href="/#redmiphones">Redmi Phones</Link>
-           <a   className="navlinks"  href="/#tv">TV</Link>
-           <a   className="navlinks"  href="/#laptops">Laptops</Link>
-           <a   className="navlinks"  href="/#lifestyle">Fitness & Lifestyle</Link>
-           <a  className="navlinks" href="/#home">Home</Link>
-           <a   className="navlinks"  href="/#audio">Radio</Link>
-           <a   className="navlinks"  href="/#accessories">Accessories</Link>
+           <a  className="navlinks"  href="/miphones">Mi Phones</Link>
+           <a   className="navlinks"   href="/redmiphones">Redmi Phones</Link>
+           <a   className="navlinks"  href="/tv">TV</Link>
+           <a   className="navlinks"  href="/laptops">Laptops</Link>
+           <a   className="navlinks"  href="/lifestyle">Fitness & Lifestyle</Link>
+           <a  className="navlinks" href="/home">Home</Link>
+           <a   className="navlinks"  href="/audio">Radio</Link>
+           <a   className="navlinks"  href="/accessories">Accessories</Link>
 
            <div className="searchbox">
               <input type="text" name="search"  placeholder="Search Products"/>
